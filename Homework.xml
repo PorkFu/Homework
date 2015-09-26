@@ -1,97 +1,97 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="87" x="-3" y="27">
+  <block type="oled_cleardisplay" id="1" x="-3" y="27">
     <next>
-      <block type="oled_setcursor" id="88" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="89">
+          <block type="math_number" id="3">
             <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="90">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="91">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">149*63=</field>
             <next>
-              <block type="oled_drawnumber" id="92" inline="true">
+              <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
-                  <block type="math_arithmetic" id="93" inline="true">
+                  <block type="math_arithmetic" id="7" inline="true">
                     <field name="OP">MULTIPLY</field>
                     <value name="A">
-                      <block type="math_number" id="94">
+                      <block type="math_number" id="8">
                         <field name="NUM">149</field>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="95">
+                      <block type="math_number" id="9">
                         <field name="NUM">63</field>
                       </block>
                     </value>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_setcursor" id="19" inline="true">
+                  <block type="oled_setcursor" id="10" inline="true">
                     <value name="STARTX">
-                      <block type="math_number" id="58">
+                      <block type="math_number" id="11">
                         <field name="NUM">10</field>
                       </block>
                     </value>
                     <value name="STARTY">
-                      <block type="math_number" id="65">
+                      <block type="math_number" id="12">
                         <field name="NUM">20</field>
                       </block>
                     </value>
                     <next>
-                      <block type="oled_drawtext" id="29">
+                      <block type="oled_drawtext" id="13">
                         <field name="TEXT">4+5=</field>
                         <next>
-                          <block type="oled_drawnumber" id="45" inline="true">
+                          <block type="oled_drawnumber" id="14" inline="true">
                             <value name="NUMBER">
-                              <block type="math_arithmetic" id="72" inline="true">
+                              <block type="math_arithmetic" id="15" inline="true">
                                 <field name="OP">ADD</field>
                                 <value name="A">
-                                  <block type="math_number" id="79">
+                                  <block type="math_number" id="16">
                                     <field name="NUM">4</field>
                                   </block>
                                 </value>
                                 <value name="B">
-                                  <block type="math_number" id="86">
+                                  <block type="math_number" id="17">
                                     <field name="NUM">5</field>
                                   </block>
                                 </value>
                               </block>
                             </value>
                             <next>
-                              <block type="oled_setcursor" id="123" inline="true">
+                              <block type="oled_setcursor" id="18" inline="true">
                                 <value name="STARTX">
-                                  <block type="math_number" id="124">
+                                  <block type="math_number" id="19">
                                     <field name="NUM">10</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
-                                  <block type="math_number" id="125">
+                                  <block type="math_number" id="20">
                                     <field name="NUM">30</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_drawtext" id="126">
-                                    <field name="TEXT">4+5=</field>
+                                  <block type="oled_drawtext" id="21">
+                                    <field name="TEXT">97-68=</field>
                                     <next>
-                                      <block type="oled_drawnumber" id="127" inline="true">
+                                      <block type="oled_drawnumber" id="22" inline="true">
                                         <value name="NUMBER">
-                                          <block type="math_arithmetic" id="128" inline="true">
-                                            <field name="OP">ADD</field>
+                                          <block type="math_arithmetic" id="23" inline="true">
+                                            <field name="OP">MINUS</field>
                                             <value name="A">
-                                              <block type="math_number" id="129">
-                                                <field name="NUM">4</field>
+                                              <block type="math_number" id="24">
+                                                <field name="NUM">97</field>
                                               </block>
                                             </value>
                                             <value name="B">
-                                              <block type="math_number" id="130">
-                                                <field name="NUM">5</field>
+                                              <block type="math_number" id="25">
+                                                <field name="NUM">68</field>
                                               </block>
                                             </value>
                                           </block>
